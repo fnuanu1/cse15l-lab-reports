@@ -22,6 +22,7 @@ Indicate whether the output is an error or not, and if it's an error, explain wh
  ![Image](cat-directory.png)
 
  Explanation - 
+
  Error or not - This is an error since the argument points 
 
 3) `Cat` with a path to a file:
@@ -31,6 +32,7 @@ Indicate whether the output is an error or not, and if it's an error, explain wh
  ![Image](cat-filePath.png)
 
 Explanation - 
+
 Error or not -  Not an error!
 
 4) `Cat` with no args:
@@ -39,10 +41,11 @@ Error or not -  Not an error!
 ![Image](cat-noArgs.png)
 
  Explanation - 
+ 
  Error or not - default error because *error or not*
   ___
    
-   ### **`CD` Command:**
+### **`CD` Command:**
 1) `CD` with a path to a directory:
    
  PWD: `/home/`
@@ -50,6 +53,7 @@ Error or not -  Not an error!
    ![Image](cd-directory.png)
 
  Explanation - 
+ 
  Error or not - Not an error!
    
 3) `CD` with a path to a file:
@@ -59,6 +63,7 @@ Error or not -  Not an error!
    ![Image](cd-filePath.png)
 
  Explanation - 
+ 
  Error or not - Error because 
 
 5) `CD` with no args: 
@@ -68,10 +73,11 @@ Error or not -  Not an error!
    ![Image](cd-noArgs.png)
 
  Explanation - When we put in cd with no arguments, the default is to return to home directory!
+ 
  Error or not - Not an Error! *is it default error?*
    ___
 
-   #### **`ls` Command:**
+#### **`ls` Command:**
 1) `ls` with a path to a directory:
 
  PWD: `/home/`
@@ -79,6 +85,7 @@ Error or not -  Not an error!
    ![Image](ls-directory.png)
  
  Explanation - 
+ 
  Error or not - Not an error!
 
 3) `ls` with a path to a file:
@@ -88,6 +95,7 @@ Error or not -  Not an error!
    ![Image](ls-filePath.png)
 
  Explanation - 
+ 
  Error or not - Error because 
 
 5) `ls` with no args:
@@ -97,6 +105,7 @@ Error or not -  Not an error!
    ![Image](ls-noArgs.png)
 
   Explanation - 
+  
   Error or not - Not an Error!
   ___
    
