@@ -16,55 +16,67 @@ Indicate whether the output is an error or not, and if it's an error, explain wh
 1) `Cat` with a path to a directory:
    
  PWD: 
-   <img src= cat-directory.png width="400" height="50"/>
-  
+ 
+ ![Image](cat-directory.png)
+
 3) `Cat` with a path to a file:
    
  PWD: 
  
-   ![Image](cat-filePath.png)
-   <img src= cat-filePath.png width="400" height="50"/>
+ ![Image](cat-filePath.png)
 
 
 4) `Cat` with no args:
- PWD: 
-   <img src= cat-noArgs.png width="200" height="100"/> 
+ PWD:
+
+![Image](cat-noArgs.png)
    
    ___
    
     ## **`CD` Command:**
 1) `CD` with a path to a directory:
    
-    PWD: 
-   <img src= cd-directory.png width="300" height="50"/> 
+    PWD:
+
+   ![Image](cd-directory.png)
+
    
 3) `CD` with a path to a file:
 
-    PWD: 
-   <img src= cd-filePath.png width="550" height="50"/>
+    PWD:
+
+   ![Image](cd-filePath.png)
+
       
 5) `CD` with no args:
 
-    PWD: 
-   <img src= cd-noArgs.png width="250" height="50"/> 
+    PWD:
+
+   ![Image](cd-noArgs.png)
+
    
    ___
 
    ### **`ls` Command:**
 1) `ls` with a path to a directory:
 
-    PWD: 
-   <img src= ls-directory.png width="400" height="50"/>
+    PWD:
 
-2) `ls` with a path to a file:
+   ![Image](ls-directory.png)
 
-    PWD: 
-   <img src= ls-filePath.png width="400" height="50"/> 
+
+3) `ls` with a path to a file:
+
+    PWD:
+
+   ![Image](ls-filePath.png)
+
    
-3) `ls` with no args:
+5) `ls` with no args:
    
-    PWD: 
-   <img src= ls-noArgs.png width="250" height="50"/> 
-   
+    PWD:
+
+   ![Image](ls-noArgs.png)
+      
    ___
    
