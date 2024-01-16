@@ -1,8 +1,8 @@
 # CSE 15L LAB Report #1 - Fnu Anu
 
-## ** `cat` Command:**
+## `cat` Command:
 
-Example 1: `cat` with a path to a directory:
+**Example 1**: `cat` with a path to a directory:
    
 WD: `/home/` 
  
@@ -12,7 +12,7 @@ WD: `/home/`
 
  Error or not - This is an error since the argument points to the fact that the argument led to a directory (or folder) where it does not exactly where to go or which file the user wants it to access and return the contents of so since the `messages` is a directory, it simply throws an error to let user know that the input might be wrong or the user's expectations are not specified enough.
 
-Example 2: `cat` with a path to a file:
+**Example 2**: `cat` with a path to a file:
    
 WD: `/home/`
  
@@ -22,7 +22,7 @@ Explanation - For this example, I inputted a path to a file from `home` director
 
 Error or not -  Not an error!
 
-Example 3: `cat` with no args:
+**Example 3**: `cat` with no args:
 
 WD: `/home/`
 
@@ -31,11 +31,12 @@ WD: `/home/`
 Explanation - I was in the `home` directory when I had entered `cat` command with no arguments. In response, the terminal became a little interactive where the terminal prompt disappeared and everytime I had entered any input, it simply copied and returned my input, possibly because it is waiting for me to enter an argument after not receiving any argument in the `cat` command initially. This is how I ended up entering a '?' only to receive a '?' back as well as 'Hello Buddy' exactly how I had entered it probably because `cat` command reads the contents of the files when the file names are inputted which in this case, it hadn't received in this case at all so it created another way for the user to interact with it.
  
 Error or not - Not an Error!
+
 ___
 
 
 ### **`cd` Command:**
-Example 1: `cd` with a path to a directory:
+**Example 1**: `cd` with a path to a directory:
    
 WD: `/home/`
 
@@ -45,7 +46,7 @@ Explanation - For this example, I used `lecture1` as my argument in `cd` command
  
 Error or not - Not an error!
    
-Example 2: `cd` with a path to a file:
+**Example 2**: `cd` with a path to a file:
 
 WD: `/home/lecture1/messages`
 
@@ -55,7 +56,7 @@ Explanation - For this example, I am directly in `messages` which contains a few
  
 Error or not - Error because the path leading to the file, `en-us.txt`, is not exactly a directory for the command to help change to so it throws an error saying that it is not what something it was expecting.
 
-Example 3: `cd` with no args: 
+**Example 3**: `cd` with no args: 
 
 WD: `/home/lecture1`
 
@@ -64,11 +65,12 @@ WD: `/home/lecture1`
 Explanation - When we put in cd with no arguments, the default for `cd` command is to return to `home` directory so that is why I got back to `home` directory even though I was inside the `lecture1` directory existing inside the `home` directory.
  
  Error or not - Not an Error!
+ 
  ___
    
 
 #### **`ls` Command:**
-Example 1: `ls` with a path to a directory:
+**Example 1**: `ls` with a path to a directory:
 
 WD: `/home/`
 
@@ -78,7 +80,7 @@ Explanation - For this example, I used a path to another directory existing with
  
 Error or not - Not an error!
 
-Example 2: `ls` with a path to a file:
+**Example 2**: `ls` with a path to a file:
 
 WD: `/home/lecture1/messages`
 
@@ -88,7 +90,7 @@ Explanation - The `en-us.txt` is the name of `txt` file that exists inside the m
  
 Error or not - Not an Error!
 
-Example 3: `ls` with no args:
+**Example 3**: `ls` with no args:
    
 WD: `/home/`
 
@@ -97,5 +99,6 @@ WD: `/home/`
 Explanation - When we enter `ls` command with no arguments, it returns the two folders' name, `lecture1` and `directory2`, that exist in the `home` directory. I got this output because the `ls` command is supposed to list the files or directories that exist under the `home` directory when I don't put any arguments.
   
 Error or not - Not an Error!
+
 ___
    
