@@ -12,7 +12,8 @@ Indicate whether the output is an error or not, and if it's an error, explain wh
 
 # CSE 15L LAB Report #1 - Fnu Anu
 
- ## **`Cat` Command:**
+## **`Cat` Command:**
+
 1) `Cat` with a path to a directory:
    
  PWD: `/home/` - *is this the correct way to refer to working directories???*
