@@ -21,7 +21,9 @@ Indicate whether the output is an error or not, and if it's an error, explain wh
 3) `Cat` with a path to a file:
    
  PWD: 
+ 
    <img src= cat-filePath.png width="400" height="50"/>
+   ![Image](cat-filePath.png)
 
 4) `Cat` with no args:
  PWD: 
