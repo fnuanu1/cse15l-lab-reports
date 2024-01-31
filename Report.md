@@ -1,4 +1,4 @@
-# CSE 15L LAB Report #1 - Fnu Anu
+# CSE 15L LAB Report #2 - Fnu Anu
 ## Part 1:
 Below are the two screenshots of my code file:
 ![Image](CodePart1.png)
