@@ -287,6 +287,7 @@ Citation: `CitOpenAI. (2023). ChatGPT (Mar 14 version) [Large language model]. h
 
 - The prompts I gave to ChatGPT was "Tell me four unique ways or alternative ways of using `grep` command".
 - Its output was general, but exactly like this below:
+
 ```
 Let's explore the grep command, which is used for searching text patterns in files. Here are four interesting command-line options or alternate ways to use grep:
 
@@ -312,10 +313,13 @@ If you want to see the line numbers along with the matching lines, you can use t
 grep -n "pattern" file.txt
 These are just a few examples of how grep can be used with different options to enhance its functionality.
 ```
+//ENDS OF CHATGPT OUTPUT
+
 How I altered the original output: I expanded on these general ideas to test them out for myself and make them personable, and even expand furthermore, into some of these ideas and find new ones since `grep -r` is a general command that we had  already covered so I have not completely taken ideas for how it is and made ChatGPT expand on their specifics, and simply asking to find "more new ways" to get the ones I incorporated, their purpose and application.
 
 In addition, I used this website's idea to use -c to get the number count on the repitition of the said pattern that is chosen. 
 APA Citation: 
+
 ```
 Narendra. (2024, January 31). 10 unique use cases of GREP command in linux. RedSwitches. https://www.redswitches.com/blog/grep-command-in-linux/#:~:text=of%20the%20command%3A-,Search%20All%20Directories%20for%20a%20String,with%20all%20the%20other%20subdirectories.
 ```
