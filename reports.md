@@ -286,8 +286,9 @@ I would like to axknowledge ChatGPT to help me find these ways above.
 Citation: `CitOpenAI. (2023). ChatGPT (Mar 14 version) [Large language model]. https://chat.openai.com/chat`
 
 - The prompts I gave to ChatGPT was "Tell me four unique ways or alternative ways of using `grep` command".
-- Its output was general, but exactly like this below:
+- Its output was general, but exactly like this below: (I am having trouble putting all this into one so just look for comments below for start and end)
 
+//STARTS OF CHATGPT OUTPUT
 ```
 Let's explore the grep command, which is used for searching text patterns in files. Here are four interesting command-line options or alternate ways to use grep:
 
