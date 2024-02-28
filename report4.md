@@ -70,7 +70,7 @@ Summary of Commands: `bash` command is used here to run the same set of commands
 
 Effect of Key Presses: <enter> key press was used here after `bash test.sh` was typed so to make the commands actually be run and we learn if all tests were passed, which was yes as shown in the image.
 
-###### Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
+**Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)**
 
 The image below shows that I tried inputting `git add . <enter>` to stage the files, but no message output or error was directly outputted so I continued.
 ![Image](gitadd.png)
@@ -90,7 +90,7 @@ Summary of Commands: There are 3 various types of git commands we used here as d
 
 Effect of Key Presses: <enter> was the special key press that I used other than typing all these details so multiple commands were responsible for processing and saving content changes as part of this step.
 
-###### Final Screenshot of "done" message on github webpage:
+**Final Screenshot of "done" message on github webpage:**
 
 The image below also confirms a successful git push as "done" comment shows up when I refreshed the webpage to see if the changes were updated on the remote account, which is a yes here as seen.
 ![Image](final.png)
