@@ -2,7 +2,8 @@
 ## Step 4: Log into ieng6 
 (STEP 1-3 were not asked to be included since it is just deleting the reportory and setting up)
 
-The image below shows my input `ssh fanu@ieng6.ucsd.edu <enter>` into the terminal and its long output.
+The image below shows my input `ssh fanu@ieng6.ucsd.edu <enter>` into the terminal and its long output. Here:
+
 ![Image](LoggingIn.png)
 
 
@@ -16,7 +17,8 @@ Effect of Key Presses: `<enter>` key press was needed to allow me to process tha
 
 In the image below, you can see that I used `rm -rf lab7` to remove the lab7 from ieng6 account so to repeat the steps for this report. 
 
-Then, you can see my input, `git clone git@github.com:fnuanu1/lab7.git <enter>` and its output saying that the repository was cloned successfully.
+Then, you can see my input, `git clone git@github.com:fnuanu1/lab7.git <enter>` and its output saying that the repository was cloned successfully. Here:
+
 ![Image](removeClone.png)
 
 
@@ -28,7 +30,8 @@ Effect of Key Presses: Here, I used `<ctrl+c>` to copy url, `<ctrl+v>` to paste/
 
 #### Step 6: Run the tests, demonstrating that they fail
 
-The image for this step shows my commands prior to running through `bash test.sh <enter>` like `ls`, and `cd` commands to get into right directory and so forth to do the next few steps. This also shows the output when I run bash first without making any changes that two tests were ran and one of the two ran failed.
+The image for this step shows my commands prior to running through `bash test.sh <enter>` like `ls`, and `cd` commands to get into right directory and so forth to do the next few steps. This also shows the output when I run bash first without making any changes that two tests were ran and one of the two ran failed. Here:
+
 ![Image](bash1.png)
 
 
@@ -40,15 +43,18 @@ Effect of Key Presses: As for the key presses here, I only used <enter> which is
 
 ##### Step 7: Edit the code file to fix the failing test
 
-When I input, `vim ListExamples.java <enter>`, no input was directly made into the terminal. However, another textbox opened with the contents of the file I vimmed which was `ListExamples.java` and here I made changes by activating insertion mode and then saving and exit through `cl` text and `<esc> <shift + ;> wq> <enter>`.
+When I input, `vim ListExamples.java <enter>`, no input was directly made into the terminal. However, another textbox opened with the contents of the file I vimmed which was `ListExamples.java` and here I made changes by activating insertion mode and then saving and exit through `cl` text and `<esc> <shift + ;> wq> <enter>`. Here:
+
 ![Image](vim.png)
 
 
-This picture is the before-math like before any changes were made.
+This picture is the before-math like before any changes were made:
+
 ![Image](vimFile.png)
 
 
-This picture is the after-math like after all changes were made except I still have to press `<enter>` to confirm and exit after typing `<esc> <shift + ;> wq>`. I also noticed that when I press `<esc> <shift+;>`, no matter where the cursor was, the cursor moved to the end of file and allowed me to type `wq` to save and exit. By the way, `<shift+;>`equates to `:`. After, it will allow me to go back to the terminal and do next steps.
+This picture is the after-math like after all changes were made except I still have to press `<enter>` to confirm and exit after typing `<esc> <shift + ;> wq>`. I also noticed that when I press `<esc> <shift+;>`, no matter where the cursor was, the cursor moved to the end of file and allowed me to type `wq` to save and exit. By the way, `<shift+;>`equates to `:`. After, it will allow me to go back to the terminal and do next steps. Here:
+
 ![Image](after1.png)
 
 
@@ -58,9 +64,10 @@ Summary of Commands: Here, I used `vim` command to get into the file, ListExampl
 
 Effect of Key Presses: I think the only special key I pressed was `<down>` and `<shift+;>` which allowed me to get the cursor to wherever I want to make changes. In general, I realized that I can also click anywhere here directly just like in a file wherever I want to make changes. The `<shift+;>` is essential to be able to write the combination of wq which is to save and quit the vim command.
 
-###### Step 8: Run the tests, demonstrating that they now succeed
+**Step 8: Run the tests, demonstrating that they now succeed**
 
-Once again, I attempt to run `bash` again and this time, all tests had passed as seen below after changes we made earlier.
+Once again, I attempt to run `bash` again and this time, all tests had passed as seen below after changes we made earlier. Here:
+
 ![Image](bash2.png)
 
 
@@ -72,15 +79,18 @@ Effect of Key Presses: <enter> key press was used here after `bash test.sh` was 
 
 **Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)**
 
-The image below shows that I tried inputting `git add . <enter>` to stage the files, but no message output or error was directly outputted so I continued.
+The image below shows that I tried inputting `git add . <enter>` to stage the files, but no message output or error was directly outputted so I continued. Here:
+
 ![Image](gitadd.png)
 
 
-The image below shows that I inputted `git commit -m "done"` and some information about myself were being confirmed or outputted back at me in the terminal.
+The image below shows that I inputted `git commit -m "done"` and some information about myself were being confirmed or outputted back at me in the terminal. Here:
+
 ![Image](gitcommit.png)
 
 
-Lastly, I input `git push` to which I got more information spit back at me about information being transported in all packs and so forth to the remote repository and therefore, confirmed that it was successful.
+Lastly, I input `git push` to which I got more information spit back at me about information being transported in all packs and so forth to the remote repository and therefore, confirmed that it was successful. Here:
+
 ![Image](gitpush.png)
 
 
@@ -92,8 +102,9 @@ Effect of Key Presses: <enter> was the special key press that I used other than 
 
 **Final Screenshot of "done" message on github webpage:**
 
-The image below also confirms a successful git push as "done" comment shows up when I refreshed the webpage to see if the changes were updated on the remote account, which is a yes here as seen.
+The image below also confirms a successful git push as "done" comment shows up when I refreshed the webpage to see if the changes were updated on the remote account, which is a yes here as seen. Here:
+
 ![Image](final.png)
 
 
-Overall Command Summary and Key Presses Effect: The commands like `git add`, `git commit`, `git push`, `ls`, `cd`, `pwd`, `ssh`, `git clone`, `bash` and `vim`. As described above the details or summary of each of these commands, we overall used these commands to access account, clone respositories, access directories, change contents of the file, run the tests and push out those changes. The effect of Key Presses in general seems to shorten the time I spent typing each character so here, I realized that just like I used `<ctrl+c>` and `<ctrl+v>`, I must use other key presses to help me shorten the time it takes for me to complete a possible change in vim or in terminal so I should get in the habit of using `<tab>` and other shortcuts. Most of the time, I was just using `<enter>`, which allows the command line to be inputted and an output is produced accordingly through any of these commands used.
+**Overall Command Summary and Key Presses Effect:** The commands like `git add`, `git commit`, `git push`, `ls`, `cd`, `pwd`, `ssh`, `git clone`, `bash` and `vim`. As described above the details or summary of each of these commands, we overall used these commands to access account, clone respositories, access directories, change contents of the file, run the tests and push out those changes. The effect of Key Presses in general seems to shorten the time I spent typing each character so here, I realized that just like I used `<ctrl+c>` and `<ctrl+v>`, I must use other key presses to help me shorten the time it takes for me to complete a possible change in vim or in terminal so I should get in the habit of using `<tab>` and other shortcuts. Most of the time, I was just using `<enter>`, which allows the command line to be inputted and an output is produced accordingly through any of these commands used.
