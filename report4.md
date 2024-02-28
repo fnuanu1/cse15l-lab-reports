@@ -33,7 +33,7 @@ Effect of Key Presses: I think the only special key I pressed was `<down>` and `
 ![Image](nonApplicable.png)
 
 Keys Pressed: typed `bash test.sh <enter>` to re-run the command lines bashscript written in test.sh of lab7; same bashscript (no changes made) as in step 6.
-Summary of Commands: `bash` command is used here to run the same set of commands written in this script file of test.sh
+Summary of Commands: `bash` command is used here to run the same set of commands written in this script file of test.sh except we don't have to cd into `lab7` prior to running bash since we are already in this directory.
 Effect of Key Presses: <enter> key press was used here after `bash test.sh` was typed so to make the commands actually be run and we learn if all tests were passed, which was yes as shown in the image.
 
 ###### Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
